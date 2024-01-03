@@ -78,7 +78,7 @@ void HaDeckDevice::setup() {
     lcd.setBrightness(brightness_);
 
     lv_obj_t * bg_image = lv_img_create(lv_scr_act());
-    lv_img_set_src(bg_image, &bg_480x320); // Assicurati che questa immagine sia della dimensione corretta
+    lv_img_set_src(bg_image, &bg_240x320); // Assicurati che questa immagine sia della dimensione corretta
     lv_obj_set_parent(bg_image, lv_scr_act());
 }
 
