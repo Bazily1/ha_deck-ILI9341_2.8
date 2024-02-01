@@ -17,6 +17,8 @@ The ha_deck component renders all widgets, switches screens, and controls inacti
 
 ## Supported devices
 
+- esp32-2432s028r this foro test 
+
 - WT32-SC01 PLUS (ESP32-S3, 3.5", 480x320)
 - WT32S3-86S/ZX3D95CE01S-AR-4848 (ESP32-S3, 4", 480x480) - **not fully tested**
   *As of today, only the hardware component has been added. HA Deck doesn't auto-scale widget size based on screen resolution, so sliders will look odd when the default parameters are used with a larger (480x480) display.*
