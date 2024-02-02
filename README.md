@@ -33,7 +33,7 @@ external_components:
       type: git
       url: https://github.com/strange-v/ha_deck
       ref: main
-    components: [ hd_device_sc01_plus, ha_deck ]
+    components: [ hd_device_sc01_plus, ha_deck, hd_device_ILI9341 ]
 ```
 
 Then, declare the hardware component.
