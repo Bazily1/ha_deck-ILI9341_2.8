@@ -3,6 +3,10 @@
 namespace esphome {
 namespace hd_device {
 
+// Aggiorna le dimensioni del display per ILI9341
+static const uint16_t TFT_WIDTH = 320;
+static const uint16_t TFT_HEIGHT = 240;
+
 static const char *const TAG = "HD_DEVICE";
 static lv_disp_draw_buf_t draw_buf;
 static lv_color_t *buf = (lv_color_t *)heap_caps_malloc(TFT_HEIGHT * 10 * sizeof(lv_color_t), MALLOC_CAP_DMA);
@@ -12,9 +16,7 @@ LGFX lcd;
 lv_disp_t *indev_disp;
 lv_group_t *group;
 
-// Aggiorna le dimensioni del display per ILI9341
-static const uint16_t TFT_WIDTH = 320;
-static const uint16_t TFT_HEIGHT = 240;
+
 
 void IRAM_ATTR flush_pixels(lv_disp_drv_t *disp, const lv_area_t *area, lv_color_t *color_p)
 {
