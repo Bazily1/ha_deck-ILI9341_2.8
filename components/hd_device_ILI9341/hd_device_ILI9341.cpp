@@ -101,7 +101,7 @@ float HaDeckDevice::get_setup_priority() const { return setup_priority::DATA; }
 //void HaDeckDevice::set_brightness(uint8_t value) {
 //    brightness_ = value;
 //    lcd.setBrightness(brightness_);
-}
+//}
 
 }  // namespace hd_device
 }  // namespace esphome
