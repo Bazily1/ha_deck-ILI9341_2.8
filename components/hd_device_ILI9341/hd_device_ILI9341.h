@@ -28,8 +28,8 @@ class HaDeckDevice : public Component {
   lv_group_t *group;
   uint8_t brightness_ = 255;
 
-  static void IRAM_ATTR flush_pixels(lv_disp_drv_t *disp, const lv_area_t *area, lv_color_t *color_p);
-  static void IRAM_ATTR touchpad_read(lv_indev_drv_t *indev_driver, lv_indev_data_t *data);
+  //static void IRAM_ATTR flush_pixels(lv_disp_drv_t *disp, const lv_area_t *area, lv_color_t *color_p);
+  //static void IRAM_ATTR touchpad_read(lv_indev_drv_t *indev_driver, lv_indev_data_t *data);
 };
 
 }  // namespace hd_device
