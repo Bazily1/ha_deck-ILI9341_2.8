@@ -94,13 +94,13 @@ void HaDeckDevice::loop() {
 
 float HaDeckDevice::get_setup_priority() const { return setup_priority::DATA; }
 
-uint8_t HaDeckDevice::get_brightness() {
-    return brightness_;
-}
+//uint8_t HaDeckDevice::get_brightness() {
+//    return brightness_;
+//}
 
-void HaDeckDevice::set_brightness(uint8_t value) {
-    brightness_ = value;
-    lcd.setBrightness(brightness_);
+//void HaDeckDevice::set_brightness(uint8_t value) {
+//    brightness_ = value;
+//    lcd.setBrightness(brightness_);
 }
 
 }  // namespace hd_device
