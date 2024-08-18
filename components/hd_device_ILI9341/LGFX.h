@@ -3,8 +3,8 @@
 #define LGFX_USE_V1
 #include <LovyanGFX.h>
 
-#define TFT_WIDTH 320
-#define TFT_HEIGHT 240
+#define TFT_WIDTH1 320
+#define TFT_HEIGHT1 240
 
 namespace esphome {
 namespace hd_device {
