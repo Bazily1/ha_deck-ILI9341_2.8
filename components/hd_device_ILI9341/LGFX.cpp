@@ -74,7 +74,6 @@ LGFX::LGFX(void)
   }
   setPanel(&_panel_instance);// 使用するパネルをセットします。
   }
-};
 
 /*
 
