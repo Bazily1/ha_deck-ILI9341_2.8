@@ -33,8 +33,8 @@ LGFX::LGFX(void)
     cfg.pin_rst = 4;
     cfg.pin_busy = -1;
 
-    cfg.panel_width = TFT_WIDTH;
-    cfg.panel_height = TFT_HEIGHT;
+    cfg.panel_width = TFT_WIDTH1;
+    cfg.panel_height = TFT_HEIGHT1;
     cfg.offset_x = 0;
     cfg.offset_y = 0;
     cfg.offset_rotation = 0;
